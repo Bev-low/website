@@ -1,0 +1,11 @@
+{
+    "heroSection": {
+      "greeting": "你好，我是 Beverly!",
+      "description": "热爱软硬件的未来企业家..."
+    },
+    "skillsSection": {
+      "title": "技能",
+      "skillsList": ["Python", "JavaScript", "嵌入式系统"]
+    }
+  }
+  
