@@ -81,7 +81,7 @@ const Projects = () => {
           }}
           onClick={() => setFilter('hardware')}
         >
-          Hardware & Software
+          Hardware
         </button>
       </div>
 
