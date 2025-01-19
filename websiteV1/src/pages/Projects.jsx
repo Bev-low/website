@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import useContentLoader from '../hooks/useContentLoader';
 import ProjectCard from '../components/projects/ProjectCard';
+import ProjectModal from '../components/projects/ProjectModal';
 
 const Projects = () => {
   const content = useContentLoader('projects'); // Load data from `src/data/projects`
   const [filter, setFilter] = useState('all'); // State to manage the active filter
+  const [selectedProject, setSelectedProject] = useState(null); // State to track the selected project
 
   if (!content || !content.items) {
     return <div>Loading...</div>;
@@ -14,6 +16,14 @@ const Projects = () => {
   const filteredProjects = content.items.filter((project) =>
     filter === 'all' ? true : project.type === filter
   );
+
+  const openModal = (project) => {
+    setSelectedProject(project); // Set the selected project
+  };
+
+  const closeModal = () => {
+    setSelectedProject(null); // Close the modal by resetting the selected project
+  };
 
   return (
     <main style={{ padding: '2rem', fontFamily: 'Arial, sans-serif', color: '#333' }}>
@@ -94,9 +104,14 @@ const Projects = () => {
         }}
       >
         {filteredProjects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+          <ProjectCard key={index} project={project} onViewMore={openModal} />
         ))}
       </div>
+
+      {/* Project Modal */}
+      {selectedProject && (
+        <ProjectModal project={selectedProject} onClose={closeModal} />
+      )}
     </main>
   );
 };

@@ -1,0 +1,24 @@
+{
+    "title": "爱好",
+    "items": [
+      {
+        "id": 1,
+        "title": "摄影",
+        "image": "/assets/hobbies/Cam.jpg",
+        "description": "用索尼 A6400 和适马 18-50mm 镜头捕捉瞬间与情感，激发创造力和新视角。"
+      },
+      {
+        "id": 2,
+        "title": "3D打印",
+        "image": "/assets/hobbies/Printer.jpg",
+        "description": "使用 Bambu A1 Mini 将创意变为现实，为电子项目打造定制设计。"
+      },
+      {
+        "id": 3,
+        "title": "徒步",
+        "image": "/assets/hobbies/Hiking.jpg",
+        "description": "挑战极限，拥抱攀登乐趣，如越南番西邦峰、新西兰罗伊峰、巴厘岛巴图尔山。"
+      }
+    ]
+  }
+  

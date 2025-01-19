@@ -1,0 +1,24 @@
+{
+    "title": "Hobbies",
+    "items": [
+      {
+        "id": 1,
+        "title": "Photography",
+        "image": "/assets/hobbies/Cam.jpg",
+        "description": "Capturing moments and emotions with a Sony A6400 and Sigma 18-50mm lens, unlocking creativity and new perspectives."
+      },
+      {
+        "id": 2,
+        "title": "3D Printing",
+        "image": "/assets/hobbies/Printer.jpg",
+        "description": "Transforming ideas into reality with the Bambu A1 Mini, enhancing electrical projects with custom designs."
+      },
+      {
+        "id": 3,
+        "title": "Hiking",
+        "image": "/assets/hobbies/Hiking.jpg",
+        "description": "Pushing limits and embracing challenges with hikes like Fansipan (Vietnam), Roys Peak (New Zealand), and Mount Batur (Bali)."
+      }
+    ]
+  }
+  

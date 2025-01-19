@@ -1,0 +1,73 @@
+{
+    "title": "Experience",
+    "items": [
+      {
+        "id": 1,
+        "title": "Electrical Team - Singapore AUV Challenge",
+        "company": "NUS Bumblebee's HornetX Team",
+        "duration": "Aug 2024 - Present",
+        "image": "/assets/experience/Hornet.jpg",
+        "description": "Engineered the power system for an Autonomous Underwater Vehicle (AUV), optimizing stability and performance.",
+        "detailedDescription": [
+          "Engineered the power architecture for an AUV, optimizing power distribution and stability.",
+          "Integrated electrical systems with propulsion and mechanical subsystems.",
+          "Designed custom PCBs tailored to competition standards."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Teaching Assistant",
+        "company": "National University of Singapore",
+        "duration": "Aug 2024 - Nov 2024",
+        "image": "/assets/experience/TA.jpg",
+        "description": "Guided students in learning electronic principles and robotics design as part of an experiential course.",
+        "detailedDescription": [
+          "Mentored 15 students in a hands-on course focused on electronic circuits and robotics.",
+          "Facilitated weekly lab sessions to help students understand fundamental principles.",
+          "Prepared students for the final robotics challenge to design and build sensor-assisted autonomous vehicles.",
+          "Supported professors in grading assignments and providing constructive feedback."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Business Incubation Intern",
+        "company": "PIXTA VIETNAM (Hanoi)",
+        "duration": "May 2024 - Aug 2024",
+        "image": "/assets/experience/PIXTA.jpg",
+        "description": "Led content creation efforts, achieving a 28% increase in views and 100% engagement growth.",
+        "detailedDescription": [
+          "Produced 15+ videos and posters, resulting in a 28% increase in views and doubled engagement.",
+          "Expanded the follower base from 224 to 4,000 while streamlining production workflows.",
+          "Led 7+ content shoots as Creative Director, aligning visual storytelling with brand objectives."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Social Media Intern",
+        "company": "Big Box International",
+        "duration": "Dec 2023 - Jan 2024",
+        "image": "/assets/experience/BBI.png",
+        "description": "Created engaging social media content, boosting engagement by 30% on Instagram and TikTok.",
+        "detailedDescription": [
+          "Developed engaging content including videos and captions to enhance brand messaging.",
+          "Executed social media strategies for Popmartsg and Actioncity, driving a 5% increase in visibility.",
+          "Boosted engagement by 30% on Instagram and TikTok, strengthening online brand presence."
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Sales Associate",
+        "company": "SMV Marketing",
+        "duration": "Jan 2023 - Mar 2023",
+        "image": "/assets/experience/SMV.png",
+        "description": "Secured corporate donations and achieved top sales performance for Sian Chay Medical Institution’s CSR initiatives.",
+        "detailedDescription": [
+          "Promoted Sian Chay Medical Institution’s CSR programs, providing TCM services to underprivileged individuals.",
+          "Ranked in the “Top Ten Salespersons” within two weeks, securing $27,000 in corporate donations.",
+          "Achieved a 20% conversion rate through door-to-door sales, exceeding the 8% team average.",
+          "Recruited and mentored two newcomers to effectively pitch CSR initiatives to corporations."
+        ]
+      }
+    ]
+  }
+  

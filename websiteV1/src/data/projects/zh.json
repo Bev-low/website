@@ -1,27 +1,74 @@
- 
-  {
-    "items": [
-        {
-          "name": "这个网站！",
-          "technologies": ["软件", "React", "JavaScript", "CSS"],
-          "description": "一个响应式的个人网站，展示技能、项目和经验。",
-          "image": "/assets/projects/this-site.png",
-          "type": "software"
-        },
-        {
-          "name": "BuffBuddy",
-          "technologies": ["软件", "Java", "CLI"],
-          "description": "一个CLI应用程序，帮助用户高效地跟踪他们的健身旅程。",
-          "image": "/assets/projects/buffbuddy.png",
-          "type": "software"
-        },
-        {
-          "name": "垂直浸没式冷却",
-          "technologies": ["硬件", "CAD", "3D打印", "Arduino"],
-          "description": "在一个创业活动中，作为主要工程师设计了模块化浸没式冷却系统，解决了当前设计中的低效问题。",
-          "image": "/assets/projects/immersion-cooling.png",
-          "type": "hardware"
-        }
-      ]
-  }
-  
+{
+  "items": [
+    {
+      "name": "这个网站！",
+      "technologies": ["React", "JavaScript", "CSS"],
+      "description": "一个响应式作品集网站，展示技能、项目和经验。",
+      "longDescription": "这个项目旨在以引人入胜和现代的方式展示我的作品集。它具有响应式设计、交互式元素，并展示了我的软件开发技能和经验。",
+      "status": "done",
+      "url": "https://github.com/Bev-low/website/tree/master/websiteV1",
+      "image": "/assets/projects/this-site.png",
+      "type": "software"
+    },
+    {
+      "name": "BuffBuddy",
+      "technologies": ["Java", "CLI", "应用开发"],
+      "description": "一个帮助用户跟踪健身旅程的命令行界面（CLI）应用。",
+      "longDescription": "BuffBuddy 是一个命令行界面（CLI）应用，用于跟踪锻炼、饮食和饮水量。它简单却高效，适合任何开始健身旅程的人。",
+      "status": "done",
+      "url": "https://github.com/AY2425S1-CS2113-W10-3/tp",
+      "image": "/assets/projects/buffbuddy.png",
+      "type": "software"
+    },
+    {
+      "name": "垂直浸没冷却",
+      "technologies": ["CAD", "3D打印", "Arduino", "Startathon"],
+      "description": "设计了一种模块化浸没冷却系统，以提高可访问性。",
+      "longDescription": "该项目旨在通过使用垂直浸没系统来革新服务器冷却。模块化设计提高了数据中心的可访问性和可扩展性。",
+      "status": "done",
+      "url": "https://github.com/yourusername/vertical-immersion-cooling",
+      "image": "/assets/projects/bluehouse.png",
+      "type": "hardware"
+    },
+    {
+      "name": "电子迷你超市",
+      "technologies": ["React", "Mantime", "JavaScript", "Hackathon"],
+      "description": "在一次黑客松中开发了一个数字化电子商务解决方案。",
+      "longDescription": "电子迷你超市是一个为黑客松构建的电子商务平台。它集成了库存管理、支付系统和用户友好的界面。",
+      "status": "done",
+      "url": "https://github.com/TVageesan/Hack4Good",
+      "image": "/assets/projects/E-Mart.png",
+      "type": "software"
+    },
+    {
+      "name": "Alex 救援机器人",
+      "technologies": ["SLAM", "3D打印", "CAD", "Arduino", "RPI 4", "C/C++"],
+      "description": "一个为搜索和救援操作设计的机器人。",
+      "longDescription": "Alex 救援机器人利用 SLAM 进行导航，并使用 Arduino 和 Raspberry Pi 4 进行处理。它旨在协助灾害响应场景。",
+      "status": "done",
+      "url": "https://github.com/Bev-low/Alex-the-Rescue-Bot",
+      "image": "/assets/projects/Alex.png",
+      "type": "hardware"
+    },
+    {
+      "name": "Ryan 迷宫跑者",
+      "technologies": ["mBot", "Arduino", "C/C++"],
+      "description": "一个能够自主导航迷宫的机器人。",
+      "longDescription": "Ryan 是一个迷宫解决机器人，由 Arduino 和 mBot 传感器提供支持。它使用算法计算通过迷宫的最佳路径。",
+      "status": "done",
+      "url": "https://github.com/Bev-low/Ryan-The-Maze-Runner",
+      "image": "/assets/projects/Ryan.png",
+      "type": "hardware"
+    },
+    {
+      "name": "宠物通信系统",
+      "technologies": ["RPI 4", "C/C++", "应用开发"],
+      "description": "一个让我的宠物随时可以联系我的通信系统。",
+      "longDescription": "宠物通信系统通过一个简单的界面让宠物与主人沟通。它使用 Raspberry Pi 和自定义应用程序进行交互。",
+      "status": "ongoing",
+      "url": "https://github.com/Bev-low/pet-comms",
+      "image": "/assets/projects/comingSoon.jpg",
+      "type": "hardware"
+    }
+  ]
+}

@@ -1,26 +1,74 @@
 {
-    "items": [
-      {
-        "name": "This Site!",
-        "technologies": ["Software", "React", "JavaScript", "CSS"],
-        "description": "A responsive portfolio website showcasing skills, projects, and experiences.",
-        "image": "/assets/projects/this-site.png",
-        "type": "software"
-      },
-      {
-        "name": "BuffBuddy",
-        "technologies": ["Software", "Java", "CLI"],
-        "description": "A CLI application to help users track their fitness journeys.",
-        "image": "/assets/projects/buffbuddy.png",
-        "type": "software"
-      },
-      {
-        "name": "Vertical Immersion Cooling",
-        "technologies": ["Hardware", "CAD", "3D Printing", "Arduino"],
-        "description": "Designed a modular immersion cooling system for better accessibility.",
-        "image": "/assets/projects/immersion-cooling.png",
-        "type": "hardware"
-      }
-    ]
-  }
-  
+  "items": [
+    {
+      "name": "This Site!",
+      "technologies": ["React", "JavaScript", "CSS"],
+      "description": "A responsive portfolio website showcasing skills, projects, and experiences.",
+      "longDescription": "This project was created to display my portfolio in an engaging and modern way. It features a responsive design, interactive elements, and showcases my skills and experiences in software development.",
+      "status": "done",
+      "url": "https://github.com/Bev-low/website/tree/master/websiteV1",
+      "image": "/assets/projects/this-site.png",
+      "type": "software"
+    },
+    {
+      "name": "BuffBuddy",
+      "technologies": ["Java", "CLI", "App Development"],
+      "description": "A CLI application to help users track their fitness journeys.",
+      "longDescription": "BuffBuddy is a Command Line Interface (CLI) application designed to track workouts, meals, and water intake. It's simple yet effective for anyone starting their fitness journey.",
+      "status": "done",
+      "url": "https://github.com/AY2425S1-CS2113-W10-3/tp",
+      "image": "/assets/projects/buffbuddy.png",
+      "type": "software"
+    },
+    {
+      "name": "Vertical Immersion Cooling",
+      "technologies": ["CAD", "3D Printing", "Arduino", "Startathon"],
+      "description": "Designed a modular immersion cooling system for better accessibility.",
+      "longDescription": "This project aims to revolutionize server cooling by using vertical immersion systems. The modular design improves accessibility and scalability for data centers.",
+      "status": "done",
+      "url": "https://github.com/yourusername/vertical-immersion-cooling",
+      "image": "/assets/projects/bluehouse.png",
+      "type": "hardware"
+    },
+    {
+      "name": "E-Mini Mart",
+      "technologies": ["React", "Mantime", "JavaScript", "Hackathon"],
+      "description": "Developed a digital e-commerce solution during a hackathon.",
+      "longDescription": "E-Mini Mart is an e-commerce platform built for a hackathon. It integrates inventory management, payment systems, and a user-friendly interface.",
+      "status": "done",
+      "url": "https://github.com/TVageesan/Hack4Good",
+      "image": "/assets/projects/E-Mart.png",
+      "type": "software"
+    },
+    {
+      "name": "Alex the Rescue Bot",
+      "technologies": ["SLAM", "3D Printing", "CAD", "Arduino", "RPI 4", "C/C++"],
+      "description": "A robot designed for search and rescue operations.",
+      "longDescription": "Alex the Rescue Bot leverages SLAM for navigation and Arduino/Raspberry Pi 4 for processing. It's designed to aid in disaster response scenarios.",
+      "status": "done",
+      "url": "https://github.com/Bev-low/Alex-the-Rescue-Bot",
+      "image": "/assets/projects/Alex.png",
+      "type": "hardware"
+    },
+    {
+      "name": "Ryan the Maze Runner",
+      "technologies": ["mBot", "Arduino", "C/C++"],
+      "description": "A robot designed to navigate mazes autonomously.",
+      "longDescription": "Ryan is a maze-solving robot powered by Arduino and mBot sensors. It uses algorithms to calculate the optimal path through a maze.",
+      "status": "done",
+      "url": "https://github.com/Bev-low/Ryan-The-Maze-Runner",
+      "image": "/assets/projects/Ryan.png",
+      "type": "hardware"
+    },
+    {
+      "name": "Pet Comms",
+      "technologies": ["RPI 4", "C/C++", "App Development"],
+      "description": "A pet communication system for my pet to call me whenever.",
+      "longDescription": "Pet Comms is a system that allows pets to communicate with their owners through a simple interface. It uses Raspberry Pi and a custom app for interaction.",
+      "status": "ongoing",
+      "url": "https://github.com/Bev-low/pet-comms",
+      "image": "/assets/projects/comingSoon.jpg",
+      "type": "hardware"
+    }
+  ]
+}
