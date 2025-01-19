@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExperienceCard = ({ role, company, duration, description, isEven }) => {
+const ExperienceCard = ({ role, company, duration, description, isEven, image }) => {
   return (
     <div
       style={{
@@ -29,6 +29,7 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
         e.currentTarget.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
       }}
     >
+
       {/* Role */}
       <h3
         style={{
@@ -41,6 +42,28 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
       >
         {role}
       </h3>
+
+      {/* Experience Image */}
+      <div
+        style={{
+          height: '150px', // Fixed height for the image container
+          width: '100%', // Full width
+          borderRadius: '5px', // Rounded corners for the image
+          overflow: 'hidden', // Ensures image doesn't overflow the container
+          marginBottom: '1rem',
+          border: '3px solid #0078d7', // Adding a border around the image
+        }}
+      >
+        <img
+          src={image} // Dynamically setting the image based on the experience data
+          alt={role}
+          style={{
+            width: '100%', // Ensures the image fills the width of the container
+            height: '100%', // Ensures the image fills the height of the container
+            objectFit: 'cover', // Ensures the image covers the container without stretching or overflowing
+          }}
+        />
+      </div>
 
       {/* Company */}
       <p

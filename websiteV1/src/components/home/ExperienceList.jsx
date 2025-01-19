@@ -67,6 +67,7 @@ const ExperienceList = ({ experience }) => {
               company={item.company}
               duration={item.duration}
               description={item.description}
+              image={item.image}
               isEven={index % 2 === 0}
             />
           ))}

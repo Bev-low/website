@@ -20,18 +20,21 @@
       {
         "role": "Electrical Team - Singapore AUV Challenge",
         "company": "NUS Bumblebee's HornetX Team",
+        "image": "/assets/experience/Hornet.png",
         "duration": "Aug 2024 - Present",
         "description": "Engineered the power system for an Autonomous Underwater Vehicle (AUV), optimizing stability and performance."
       },
       {
         "role": "Business Incubation Intern",
         "company": "PIXTA VIETNAM (Hanoi)",
+        "image": "/assets/experience/PIXTA.png",
         "duration": "May 2024 - Aug 2024",
         "description": "Led content creation efforts, achieving a 28% increase in views and 100% engagement growth."
       },
       {
         "role": "Social Media Intern",
         "company": "Big Box International",
+        "image": "/assets/experience/BBI.png",
         "duration": "Dec 2023 - Jan 2024",
         "description": "Created engaging social media content, boosting engagement by 30% on Instagram and TikTok."
       }
@@ -40,16 +43,19 @@
       {
         "name": "This Site!",
         "technologies": "React, JavaScript, Vite, CSS",
+        "image": "/assets/projects/this-site.png",
         "description": "A static portfolio website done in under 24hrs showcasing skills, projects, and experiences."
       },
       {
         "name": "BuffBuddy",
         "technologies": "App Development",
+        "image": "/assets/projects/buffbuddy.png",
         "description": "A CLI application to help users track their fitness journeys."
       },
       {
         "name": "Vertical Immersion Cooling",
         "technologies": "Entrepreneurship, CAD, 3D Printing",
+        "image": "/assets/projects/bluehouse.png",
         "description": "Served as the lead engineer in a startathon, designed a modular immersion cooling system for better accessibility."
       }
     ]

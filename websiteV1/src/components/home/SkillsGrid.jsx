@@ -23,7 +23,7 @@ const SkillsGrid = ({ title, skills }) => {
               flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              backgroundColor: index % 2 === 0 ? '#f9f9f9' : '#e6f7ff', // Alternating colors
+              backgroundColor: index % 2 === 0 ? '#f9f9f9' : '#f1f7ff', // Alternating colors
               borderRadius: '10px',
               padding: '1rem',
               boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',

@@ -7,7 +7,7 @@ const ProjectsList = ({ projects }) => {
     <section
       style={{
         padding: '2rem',
-        backgroundColor: '#f4f8fb',
+        backgroundColor: '#f1f7ff',
         borderRadius: '15px',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
         marginBottom: '2rem',

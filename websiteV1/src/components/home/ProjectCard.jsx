@@ -21,6 +21,30 @@ const ProjectCard = ({ project }) => {
         e.currentTarget.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
       }}
     >
+
+      {/* Project Image */}
+      <div
+        style={{
+          height: '200px', // Set the height of the image container
+          width: '100%',
+          borderRadius: '10px',
+          overflow: 'hidden', // Ensures the image doesn't spill over the corners
+          marginBottom: '1rem',
+          border: '3px solid #0078d7', // Adding a border around the image
+        }}
+      >
+        <img
+          src={project.image} // Dynamically setting the image based on the project data
+          alt={project.name}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain', // Ensures the image covers the container without distortion
+          }}
+        />
+      </div>
+
+
       {/* Project Name */}
       <h3
         style={{
