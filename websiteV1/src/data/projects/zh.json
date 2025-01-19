@@ -1,0 +1,27 @@
+ 
+  {
+    "items": [
+        {
+          "name": "这个网站！",
+          "technologies": ["软件", "React", "JavaScript", "CSS"],
+          "description": "一个响应式的个人网站，展示技能、项目和经验。",
+          "image": "/assets/projects/this-site.png",
+          "type": "software"
+        },
+        {
+          "name": "BuffBuddy",
+          "technologies": ["软件", "Java", "CLI"],
+          "description": "一个CLI应用程序，帮助用户高效地跟踪他们的健身旅程。",
+          "image": "/assets/projects/buffbuddy.png",
+          "type": "software"
+        },
+        {
+          "name": "垂直浸没式冷却",
+          "technologies": ["硬件", "CAD", "3D打印", "Arduino"],
+          "description": "在一个创业活动中，作为主要工程师设计了模块化浸没式冷却系统，解决了当前设计中的低效问题。",
+          "image": "/assets/projects/immersion-cooling.png",
+          "type": "hardware"
+        }
+      ]
+  }
+  

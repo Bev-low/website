@@ -1,0 +1,57 @@
+{
+    "greeting": "你好，我是恩廷!",
+    "picture": "/assets/home/Me.jpg",
+    "skills": {
+      "title": "我的技能",
+      "items": [
+        { "name": "Java", "icon": "/assets/home/java.png" },
+        { "name": "C++", "icon": "/assets/home/C++.png" },
+        { "name": "C", "icon": "/assets/home/C.png" },
+        { "name": "Fusion 360 CAD", "icon": "/assets/home/Fusion.jpg" },
+        { "name": "3D Printing", "icon": "/assets/home/3D.png" },
+        { "name": "Arduino", "icon": "/assets/home/Arduino.jpg" },
+        { "name": "RPi 4", "icon": "/assets/home/RPI.png" },
+        { "name": "LightRoom", "icon": "/assets/home/LR.png" },
+        { "name": "GitHub", "icon": "/assets/home/GH.png" },
+        { "name": "PCB Design", "icon": "/assets/home/Alt.png" }
+      ]
+    },
+    "experience": [
+        {
+          "role": "电气团队 - 新加坡 AUV 挑战赛",
+          "company": "NUS Bumblebee 的 HornetX 团队",
+          "duration": "2024 年 8 月 - 至今",
+          "description": "为自主水下车辆（AUV）设计电源架构，优化电力分配和稳定性，同时将电气系统与推进和机械子系统集成。设计符合竞赛标准的定制 PCB。"
+        },
+        {
+          "role": "业务孵化实习生",
+          "company": "PIXTA VIETNAM（河内）",
+          "duration": "2024 年 5 月 - 2024 年 8 月",
+          "description": "在 NOC 越南计划中，制作了 15+ 视频和海报，推动了观看量增长 28%，互动率翻倍，粉丝数从 224 增长到 4000，同时提高生产效率，并以创意总监身份领导了 7+ 次内容拍摄。"
+        },
+        {
+          "role": "社交媒体实习生",
+          "company": "Big Box International",
+          "duration": "2023 年 12 月 - 2024 年 1 月",
+          "description": "开发了吸引人的内容，包括视频和标题，以推广品牌信息并与目标受众建立联系。为 Popmartsg 和 Actioncity 执行社交媒体策略，在 Instagram 和 TikTok 上提升了品牌曝光度 5% 和互动率 30%。"
+        }
+      ],
+      "projects": [
+        {
+          "name": "这个网站！",
+          "technologies": "React, JavaScript, Vite, CSS",
+          "description": "设计并开发了一个响应式的个人作品集网站，用于展示技能、项目和经验。"
+        },
+        {
+          "name": "BuffBuddy",
+          "technologies": "App Development",
+          "description": "创建了一个 CLI 应用程序，帮助用户高效地跟踪健身旅程。"
+        },
+        {
+          "name": "垂直浸没式冷却",
+          "technologies": "Entrepreneurship, CAD, 3D Printing",
+          "description": "作为一场 startathon 的首席工程师，利用 CAD 和 3D 打印设计了模块化和可访问的浸没冷却系统，解决了当前设计中的低效问题。"
+        }
+      ]
+  }
+  

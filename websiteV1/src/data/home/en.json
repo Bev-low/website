@@ -1,0 +1,57 @@
+{
+    "greeting": "Hello, it is me, Beverly!",
+    "picture": "/assets/home/Me.jpg",
+    "skills": {
+      "title": "My Skills",
+      "items": [
+        { "name": "Java", "icon": "/assets/home/java.png" },
+        { "name": "C++", "icon": "/assets/home/C++.png" },
+        { "name": "C", "icon": "/assets/home/C.png" },
+        { "name": "Fusion 360 CAD", "icon": "/assets/home/Fusion.jpg" },
+        { "name": "3D Printing", "icon": "/assets/home/3D.png" },
+        { "name": "Arduino", "icon": "/assets/home/Arduino.jpg" },
+        { "name": "RPi 4", "icon": "/assets/home/RPI.png" },
+        { "name": "LightRoom", "icon": "/assets/home/LR.png" },
+        { "name": "GitHub", "icon": "/assets/home/GH.png" },
+        { "name": "PCB Design", "icon": "/assets/home/Alt.png" }
+      ]
+    },
+    "experience": [
+      {
+        "role": "Electrical Team - Singapore AUV Challenge",
+        "company": "NUS Bumblebee's HornetX Team",
+        "duration": "Aug 2024 - Present",
+        "description": "Engineered the power architecture for an Autonomous Underwater Vehicle (AUV), optimizing power distribution and stability, while integrating electrical systems with propulsion and mechanical subsystems. Designed custom PCBs tailored to competition standards."
+      },
+      {
+        "role": "Business Incubation Intern",
+        "company": "PIXTA VIETNAM (Hanoi)",
+        "duration": "May 2024 - Aug 2024",
+        "description": "During the NOC Vietnam program, I created 15+ videos and posters, driving a 28% increase in views, 100% engagement growth, and growing the follower base from 224 to 4,000, while boosting production efficiency and leading 7+ content shoots as Creative Director."
+      },
+      {
+        "role": "Social Media Intern",
+        "company": "Big Box International",
+        "duration": "Dec 2023 - Jan 2024",
+        "description": "Developed engaging content, including videos and captions, to promote brand messaging and connect with target audiences. Executed social media strategies for Popmartsg and Actioncity, driving a 5% increase in brand visibility and a 30% boost in engagement on Instagram and TikTok."
+      }
+    ],
+      "projects": [
+      {
+        "name": "This Site!",
+        "technologies": "React, JavaScript, Vite, CSS",
+        "description": "Designed and developed a responsive personal portfolio website to showcase skills, projects, and experiences."
+      },
+      {
+        "name": "BuffBuddy",
+        "technologies": "App Development",
+        "description": "Created a CLI application to help users track their fitness journeys efficiently."
+      },
+      {
+        "name": "Vertical Immersion Cooling",
+        "technologies": "Entrepreneurship, CAD, 3D Printing",
+        "description": "Served as the lead engineer in a startathon, utilizing CAD and 3D printing to design a modular and accessible immersion cooling system, addressing inefficiencies in current designs."
+      }
+    ]
+  }
+  

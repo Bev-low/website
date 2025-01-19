@@ -1,0 +1,26 @@
+{
+    "items": [
+      {
+        "name": "This Site!",
+        "technologies": ["Software", "React", "JavaScript", "CSS"],
+        "description": "A responsive portfolio website showcasing skills, projects, and experiences.",
+        "image": "/assets/projects/this-site.png",
+        "type": "software"
+      },
+      {
+        "name": "BuffBuddy",
+        "technologies": ["Software", "Java", "CLI"],
+        "description": "A CLI application to help users track their fitness journeys.",
+        "image": "/assets/projects/buffbuddy.png",
+        "type": "software"
+      },
+      {
+        "name": "Vertical Immersion Cooling",
+        "technologies": ["Hardware", "CAD", "3D Printing", "Arduino"],
+        "description": "Designed a modular immersion cooling system for better accessibility.",
+        "image": "/assets/projects/immersion-cooling.png",
+        "type": "hardware"
+      }
+    ]
+  }
+  
