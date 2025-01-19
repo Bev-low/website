@@ -9,9 +9,10 @@ const SkillsGrid = ({ title, skills }) => {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
-          gap: '1rem',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', // Adjusted min-width for better alignment
+          gap: '1.5rem', // Increased gap for consistency
           justifyItems: 'center',
+          width: '100%', // Ensures grid fills container width
         }}
       >
         {skills.map((skill, index) => (
@@ -22,29 +23,29 @@ const SkillsGrid = ({ title, skills }) => {
               flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '120px',
-              height: '120px',
-              backgroundColor: index % 2 === 0 ? '#f9f9f9' : '#e6f7ff', // Alternate colors
+              backgroundColor: index % 2 === 0 ? '#f9f9f9' : '#e6f7ff', // Alternating colors
               borderRadius: '10px',
-              padding: '0.5rem',
-              boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
-              transition: 'transform 0.2s, box-shadow 0.2s',
+              padding: '1rem',
+              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+              transition: 'transform 0.3s, box-shadow 0.3s',
+              width: '100%', // Ensure it uses available width
+              height: '120px', // Uniform height for all cards
             }}
             onMouseOver={(e) => {
               e.currentTarget.style.transform = 'scale(1.05)';
-              e.currentTarget.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.15)';
+              e.currentTarget.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.2)';
             }}
             onMouseOut={(e) => {
               e.currentTarget.style.transform = 'scale(1)';
-              e.currentTarget.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+              e.currentTarget.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
             }}
           >
             <img
               src={skill.icon}
               alt={skill.name}
               style={{
-                width: '40px',
-                height: '40px',
+                width: '50px',
+                height: '50px',
                 objectFit: 'contain',
                 marginBottom: '0.5rem',
               }}
@@ -63,6 +64,16 @@ const SkillsGrid = ({ title, skills }) => {
           </div>
         ))}
       </div>
+
+      {/* Divider */}
+      <div
+        style={{
+          marginTop: '3rem',
+          height: '2px',
+          backgroundColor: '#e0e0e0',
+          width: '100%',
+        }}
+      ></div>
     </section>
   );
 };

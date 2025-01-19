@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import useContentLoader from '../hooks/useContentLoader';
-import ProjectCard from '../components/projects/ProjectCard';
+import ProjectCard from '../components/projects/ProjectCard'; // Import the ProjectCard component
 import ProjectModal from '../components/projects/ProjectModal';
 
 const Projects = () => {
@@ -101,6 +101,8 @@ const Projects = () => {
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
           gap: '2rem',
+          justifyItems: 'center', // Ensures grid items are centered
+          width: '100%',
         }}
       >
         {filteredProjects.map((project, index) => (

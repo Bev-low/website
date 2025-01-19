@@ -5,7 +5,7 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
     <div
       style={{
         flex: '0 0 280px',
-        height: '320px',
+        height: '380px', // Fixed height for the card
         backgroundColor: isEven ? '#ffffff' : '#f1f7ff',
         borderRadius: '10px',
         padding: '1rem',
@@ -18,7 +18,7 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
         border: '1px solid #e0e0e0',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly', // Even distribution of content within the card
       }}
       onMouseOver={(e) => {
         e.currentTarget.style.transform = 'translateY(-5px)';
@@ -36,6 +36,7 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
           color: '#0078d7',
           marginBottom: '0.5rem',
           fontWeight: 'bold',
+          textAlign: 'center',
         }}
       >
         {role}
@@ -48,6 +49,7 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
           marginBottom: '0.3rem',
           color: '#555',
           fontStyle: 'italic',
+          textAlign: 'center',
         }}
       >
         {company}
@@ -59,6 +61,7 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
           fontSize: '0.9rem',
           marginBottom: '0.5rem',
           color: '#777',
+          textAlign: 'center',
         }}
       >
         {duration}
@@ -70,6 +73,7 @@ const ExperienceCard = ({ role, company, duration, description, isEven }) => {
           fontSize: '0.85rem',
           lineHeight: '1.4',
           color: '#555',
+          textAlign: 'center',
         }}
       >
         {description}

@@ -17,41 +17,41 @@
       ]
     },
     "experience": [
-        {
-          "role": "电气团队 - 新加坡 AUV 挑战赛",
-          "company": "NUS Bumblebee 的 HornetX 团队",
-          "duration": "2024 年 8 月 - 至今",
-          "description": "为自主水下车辆（AUV）设计电源架构，优化电力分配和稳定性，同时将电气系统与推进和机械子系统集成。设计符合竞赛标准的定制 PCB。"
-        },
-        {
-          "role": "业务孵化实习生",
-          "company": "PIXTA VIETNAM（河内）",
-          "duration": "2024 年 5 月 - 2024 年 8 月",
-          "description": "在 NOC 越南计划中，制作了 15+ 视频和海报，推动了观看量增长 28%，互动率翻倍，粉丝数从 224 增长到 4000，同时提高生产效率，并以创意总监身份领导了 7+ 次内容拍摄。"
-        },
-        {
-          "role": "社交媒体实习生",
-          "company": "Big Box International",
-          "duration": "2023 年 12 月 - 2024 年 1 月",
-          "description": "开发了吸引人的内容，包括视频和标题，以推广品牌信息并与目标受众建立联系。为 Popmartsg 和 Actioncity 执行社交媒体策略，在 Instagram 和 TikTok 上提升了品牌曝光度 5% 和互动率 30%。"
-        }
-      ],
-      "projects": [
-        {
-          "name": "这个网站！",
-          "technologies": "React, JavaScript, Vite, CSS",
-          "description": "设计并开发了一个响应式的个人作品集网站，用于展示技能、项目和经验。"
-        },
-        {
-          "name": "BuffBuddy",
-          "technologies": "App Development",
-          "description": "创建了一个 CLI 应用程序，帮助用户高效地跟踪健身旅程。"
-        },
-        {
-          "name": "垂直浸没式冷却",
-          "technologies": "Entrepreneurship, CAD, 3D Printing",
-          "description": "作为一场 startathon 的首席工程师，利用 CAD 和 3D 打印设计了模块化和可访问的浸没冷却系统，解决了当前设计中的低效问题。"
-        }
-      ]
+    {
+      "role": "电气团队 - 新加坡AUV挑战赛",
+      "company": "NUS Bumblebee HornetX Team",
+      "duration": "2024年8月 - 至今",
+      "description": "为自主水下车辆 (AUV) 设计电力系统，优化稳定性和性能。"
+    },
+    {
+      "role": "商业孵化实习生",
+      "company": "PIXTA VIETNAM (河内)",
+      "duration": "2024年5月 - 2024年8月",
+      "description": "领导内容创作工作，成功实现浏览量增加28%和参与度翻倍。"
+    },
+    {
+      "role": "社交媒体实习生",
+      "company": "Big Box International",
+      "duration": "2023年12月 - 2024年1月",
+      "description": "创建吸引人的社交媒体内容，Instagram和TikTok的参与度提高了30%。"
+    }
+  ],
+  "projects": [
+    {
+      "name": "这个网站！",
+      "technologies": "React, JavaScript, Vite, CSS",
+      "description": "在24小时内完成的静态个人作品集网站，展示技能、项目和经验。"
+    },
+    {
+      "name": "BuffBuddy",
+      "technologies": "应用开发",
+      "description": "一个CLI应用程序，帮助用户跟踪他们的健身历程。"
+    },
+    {
+      "name": "垂直浸没式冷却",
+      "technologies": "创业, CAD, 3D打印",
+      "description": "作为一个创意比赛中的首席工程师，设计了一个模块化的浸没式冷却系统，提高了可访问性。"
+    }
+  ]
   }
   

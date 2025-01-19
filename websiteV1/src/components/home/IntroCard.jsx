@@ -1,6 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const IntroCard = ({ greeting, picture, }) => {
+const IntroCard = ({ greeting, picture }) => {
+  const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+
+  const openResumeModal = () => {
+    setIsResumeModalOpen(true);
+  };
+
+  const closeResumeModal = () => {
+    setIsResumeModalOpen(false);
+  };
+
+  const openContactModal = () => {
+    setIsContactModalOpen(true);
+  };
+
+  const closeContactModal = () => {
+    setIsContactModalOpen(false);
+  };
+
   return (
     <section
       style={{
@@ -17,33 +36,6 @@ const IntroCard = ({ greeting, picture, }) => {
         overflow: 'hidden',
       }}
     >
-      {/* Decorative Background Overlays */}
-      <div
-        style={{
-          position: 'absolute',
-          top: 0,
-          right: 0,
-          width: '200px',
-          height: '200px',
-          background: 'radial-gradient(circle at center, rgba(255, 255, 255, 0.2), transparent)',
-          zIndex: 0,
-          transform: 'translate(50%, -50%)',
-        }}
-      ></div>
-
-      <div
-        style={{
-          position: 'absolute',
-          bottom: 0,
-          left: 0,
-          width: '150px',
-          height: '150px',
-          background: 'radial-gradient(circle at center, rgba(255, 255, 255, 0.1), transparent)',
-          zIndex: 0,
-          transform: 'translate(-50%, 50%)',
-        }}
-      ></div>
-
       {/* Profile Image */}
       <img
         src={picture || '/assets/home/Me.jpg'}
@@ -67,7 +59,7 @@ const IntroCard = ({ greeting, picture, }) => {
 
         {/* Personality Tags */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1rem' }}>
-          {['#aspiring entrepreneur', '#hardware lover', '#adventurous', '#curious'].map((tag, index) => (
+          {['#aspiring entrepreneur', '#hardware lover', '#risk taker', '#growth mindset'].map((tag, index) => (
             <span
               key={index}
               style={{
@@ -119,6 +111,7 @@ const IntroCard = ({ greeting, picture, }) => {
             }}
             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#f0f0f0')}
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#fff')}
+            onClick={openResumeModal}
           >
             View Resume
           </button>
@@ -136,11 +129,129 @@ const IntroCard = ({ greeting, picture, }) => {
             }}
             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#f0f0f0')}
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#fff')}
+            onClick={openContactModal}
           >
             Contact Me
           </button>
         </div>
       </div>
+
+      {/* Resume Modal */}
+      {isResumeModalOpen && (
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: '1000',
+          }}
+          onClick={closeResumeModal}
+        >
+          <div
+            style={{
+              backgroundColor: '#fff',
+              padding: '2rem',
+              borderRadius: '10px',
+              width: '80%',
+              maxWidth: '800px',
+              textAlign: 'center',
+              position: 'relative',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={closeResumeModal}
+              style={{
+                position: 'absolute',
+                top: '10px',
+                right: '10px',
+                backgroundColor: 'transparent',
+                border: 'none',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
+              }}
+            >
+              &times;
+            </button>
+            <iframe
+              src="/assets/home/resume.pdf"
+              title="Resume"
+              style={{
+                width: '100%',
+                height: '500px',
+                border: 'none',
+              }}
+            />
+          </div>
+        </div>
+      )}
+
+      {/* Contact Modal */}
+      {isContactModalOpen && (
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: '1000',
+          }}
+          onClick={closeContactModal}
+        >
+          <div
+            style={{
+              backgroundColor: '#fff',
+              padding: '2rem',
+              borderRadius: '10px',
+              width: '80%',
+              maxWidth: '500px',
+              textAlign: 'center',
+              position: 'relative',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={closeContactModal}
+              style={{
+                position: 'absolute',
+                top: '10px',
+                right: '10px',
+                backgroundColor: 'transparent',
+                border: 'none',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
+              }}
+            >
+              &times;
+            </button>
+
+            <h2 style={{ color: '#0078d7', marginBottom: '1rem' }}>Contact Information</h2>
+            <p style={{ marginBottom: '1rem', color: 'black' }}>
+              <strong>Phone:</strong> +65 97671314
+            </p>
+            <p style={{ marginBottom: '1rem', color: 'black' }}>
+              <strong>Email:</strong> low_beverly@u.nus.edu
+            </p>
+            <p style={{ marginBottom: '1rem', color: 'black' }}>
+              <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/beverly-low-b6b1b423a/" target="_blank" rel="noopener noreferrer">View Profile</a>
+            </p>
+            <p style={{ marginBottom: '1rem', color: 'black' }}>
+              <strong>GitHub:</strong> <a href="https://github.com/Bev-low" target="_blank" rel="noopener noreferrer">View Profile</a>
+            </p>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

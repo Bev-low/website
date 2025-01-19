@@ -21,36 +21,36 @@
         "role": "Electrical Team - Singapore AUV Challenge",
         "company": "NUS Bumblebee's HornetX Team",
         "duration": "Aug 2024 - Present",
-        "description": "Engineered the power architecture for an Autonomous Underwater Vehicle (AUV), optimizing power distribution and stability, while integrating electrical systems with propulsion and mechanical subsystems. Designed custom PCBs tailored to competition standards."
+        "description": "Engineered the power system for an Autonomous Underwater Vehicle (AUV), optimizing stability and performance."
       },
       {
         "role": "Business Incubation Intern",
         "company": "PIXTA VIETNAM (Hanoi)",
         "duration": "May 2024 - Aug 2024",
-        "description": "During the NOC Vietnam program, I created 15+ videos and posters, driving a 28% increase in views, 100% engagement growth, and growing the follower base from 224 to 4,000, while boosting production efficiency and leading 7+ content shoots as Creative Director."
+        "description": "Led content creation efforts, achieving a 28% increase in views and 100% engagement growth."
       },
       {
         "role": "Social Media Intern",
         "company": "Big Box International",
         "duration": "Dec 2023 - Jan 2024",
-        "description": "Developed engaging content, including videos and captions, to promote brand messaging and connect with target audiences. Executed social media strategies for Popmartsg and Actioncity, driving a 5% increase in brand visibility and a 30% boost in engagement on Instagram and TikTok."
+        "description": "Created engaging social media content, boosting engagement by 30% on Instagram and TikTok."
       }
     ],
       "projects": [
       {
         "name": "This Site!",
         "technologies": "React, JavaScript, Vite, CSS",
-        "description": "Designed and developed a responsive personal portfolio website to showcase skills, projects, and experiences."
+        "description": "A static portfolio website done in under 24hrs showcasing skills, projects, and experiences."
       },
       {
         "name": "BuffBuddy",
         "technologies": "App Development",
-        "description": "Created a CLI application to help users track their fitness journeys efficiently."
+        "description": "A CLI application to help users track their fitness journeys."
       },
       {
         "name": "Vertical Immersion Cooling",
         "technologies": "Entrepreneurship, CAD, 3D Printing",
-        "description": "Served as the lead engineer in a startathon, utilizing CAD and 3D printing to design a modular and accessible immersion cooling system, addressing inefficiencies in current designs."
+        "description": "Served as the lead engineer in a startathon, designed a modular immersion cooling system for better accessibility."
       }
     ]
   }
