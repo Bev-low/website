@@ -4,7 +4,7 @@ import ProjectCard from '../components/projects/ProjectCard'; // Import the Proj
 import ProjectModal from '../components/projects/ProjectModal';
 
 const Projects = () => {
-  const content = useContentLoader('projects'); // Load data from `src/data/projects`
+  const content = useContentLoader('projects'); // Load data from src/data/projects
   const [filter, setFilter] = useState('all'); // State to manage the active filter
   const [selectedProject, setSelectedProject] = useState(null); // State to track the selected project
 

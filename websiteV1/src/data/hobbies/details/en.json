@@ -1,0 +1,68 @@
+{
+    "hobbies": [
+      {
+        "id": 1,
+        "title": "Photography",
+        "images": [
+          {
+            "url": "/path/to/photo1.jpg",
+            "title": "Photo 1",
+            "description": "A beautiful sunset I captured in Bali."
+          },
+          {
+            "url": "/path/to/photo2.jpg",
+            "title": "Photo 2",
+            "description": "This photo was taken during my trip to the Grand Canyon."
+          },
+          {
+            "url": "/path/to/photo3.jpg",
+            "title": "Photo 3",
+            "description": "Captured this during a hike in the Swiss Alps."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "3D Printing",
+        "images": [
+          {
+            "url": "/path/to/cad_image1.jpg",
+            "title": "CAD Design 1",
+            "description": "This is a prototype design I worked on for a robotics project."
+          },
+          {
+            "url": "/path/to/cad_image2.jpg",
+            "title": "CAD Design 2",
+            "description": "A 3D model I created using Fusion 360 for a mechanical part."
+          },
+          {
+            "url": "/path/to/cad_image3.jpg",
+            "title": "CAD Design 3",
+            "description": "Another prototype I created during my internship."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Hiking",
+        "images": [
+          {
+            "url": "/path/to/hiking1.jpg",
+            "title": "Mountain 1",
+            "description": "I hiked Fansipan, the highest mountain in Vietnam."
+          },
+          {
+            "url": "/path/to/hiking2.jpg",
+            "title": "Mountain 2",
+            "description": "I summited Roys Peak in New Zealand, an unforgettable view."
+          },
+          {
+            "url": "/path/to/hiking3.jpg",
+            "title": "Mountain 3",
+            "description": "This is me at the top of Mount Batur in Bali during sunrise."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import useContentLoader from "../hooks/useContentLoader";
+import HobbyCard from "../components/hobbies/HobbyCard"; // Import the HobbyCard component
 
 function Hobbies() {
   const content = useContentLoader("hobbies"); // Load data from `data/hobbies/en.json` or `zh.json`
+  const [selectedHobby, setSelectedHobby] = useState(null); // State to track selected hobby
 
   if (!content || !content.items) {
     return <div>Loading...</div>;
   }
+
+  const handleClick = (hobby) => {
+    setSelectedHobby(hobby); // Set the selected hobby
+  };
+
+  const closeModal = () => {
+    setSelectedHobby(null); // Close the modal by resetting the selected hobby
+  };
 
   return (
     <main style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f9f9f9" }}>
@@ -19,7 +29,7 @@ function Hobbies() {
           padding: "1rem 0",
         }}
       >
-        {content.title} {/* Title dynamically fetched */}
+        {content.title}
       </h1>
 
       <div
@@ -45,6 +55,7 @@ function Hobbies() {
               transition: "transform 0.3s ease, box-shadow 0.3s ease",
               cursor: "pointer",
             }}
+            onClick={() => handleClick(hobby)} // Trigger the modal on click
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "scale(1.02)";
               e.currentTarget.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.2)";

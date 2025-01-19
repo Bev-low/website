@@ -1,0 +1,23 @@
+{
+    "hobbies": [
+      {
+        "id": 1,
+        "title": "摄影",
+        "image": "/assets/hobbies/photography.jpg",
+        "description": "拍摄于巴厘岛的林查尼山 - 这瞬间意义重大。"
+      },
+      {
+        "id": 2,
+        "title": "CAD",
+        "image": "/assets/hobbies/cad.jpg",
+        "description": "一个设计优化空间以提高效率的项目，使用Fusion 360。"
+      },
+      {
+        "id": 3,
+        "title": "远足",
+        "image": "/assets/hobbies/hiking.jpg",
+        "description": "徒步攀登了巴图山、范西潘山和罗伊峰，突破了个人极限。"
+      }
+    ]
+  }
+  
