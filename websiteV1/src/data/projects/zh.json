@@ -25,7 +25,7 @@
       "technologies": ["CAD", "3D打印", "Arduino", "Startathon"],
       "description": "设计了一种模块化浸没冷却系统，以提高可访问性。",
       "longDescription": "该项目旨在通过使用垂直浸没系统来革新服务器冷却。模块化设计提高了数据中心的可访问性和可扩展性。",
-      "status": "done",
+      "status": "ongoing",
       "url": "https://github.com/yourusername/vertical-immersion-cooling",
       "image": "/assets/projects/bluehouse.png",
       "type": "hardware"

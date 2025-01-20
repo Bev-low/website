@@ -25,7 +25,7 @@
       "technologies": ["CAD", "3D Printing", "Arduino", "Startathon"],
       "description": "Served as the lead engineer in a startathon, designed a modular immersion cooling system for better accessibility.",
       "longDescription": "This project aims to revolutionize server cooling by using vertical immersion systems. The modular design improves accessibility and scalability for data centers.",
-      "status": "done",
+      "status": "ongoing",
       "url": "https://github.com/yourusername/vertical-immersion-cooling",
       "image": "/assets/projects/bluehouse.png",
       "type": "hardware"
