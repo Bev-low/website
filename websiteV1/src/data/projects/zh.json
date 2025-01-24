@@ -3,8 +3,12 @@
     {
       "name": "这个网站！",
       "technologies": ["React", "JavaScript", "CSS"],
-      "description": "一个响应式作品集网站，展示技能、项目和经验。",
-      "longDescription": "这个项目旨在以引人入胜和现代的方式展示我的作品集。它具有响应式设计、交互式元素，并展示了我的软件开发技能和经验。",
+      "description": "一个展示技能、项目和经验的响应式作品集网站。",
+      "longDescription": [
+        "这个项目是为了以一种现代且吸引人的方式展示我的作品集而创建的。它具有响应式设计、交互元素，并展示了我的软件开发技能和经验。",
+        "使用 React、JavaScript 和 Vercel 部署网站。",
+        "在 24 小时内完成，为了给自己一个挑战。"
+      ],
       "status": "done",
       "url": "https://github.com/Bev-low/website/tree/master/websiteV1",
       "image": "/assets/projects/this-site.png",
@@ -13,38 +17,64 @@
     {
       "name": "BuffBuddy",
       "technologies": ["Java", "CLI", "应用开发"],
-      "description": "一个帮助用户跟踪健身旅程的命令行界面（CLI）应用。",
-      "longDescription": "BuffBuddy 是一个命令行界面（CLI）应用，用于跟踪锻炼、饮食和饮水量。它简单却高效，适合任何开始健身旅程的人。",
+      "description": "一个帮助用户跟踪健身旅程的命令行界面（CLI）应用程序。",
+      "longDescription": [
+        "BuffBuddy 是一个命令行界面（CLI）应用程序，旨在帮助用户跟踪锻炼、膳食和饮水情况，为任何刚开始健身的人提供简单而有效的工具。",
+        "使用面向对象编程原则开发应用程序，确保功能良好封装且可扩展以支持未来的增强功能。",
+        "使用 Gson 库实现保存和加载功能，支持无缝读取和写入自定义数据类型到 JSON 文件，确保数据管理可靠。",
+        "设计并编码了一个直观的饮水跟踪功能，使得记录饮水变得简单且易于使用。",
+        "参与调试和解决应用程序问题，以提升功能和用户体验。",
+        "与团队成员协作，提供设计建议，优先考虑最小耦合以实现更清晰、更易维护的架构。",
+        "创建了 UML 图并编写了 Markdown 文档，清晰地传达了应用程序的结构和用法。"
+      ],
       "status": "done",
+      "video": "https://youtu.be/lOtPP37NJ2o",
       "url": "https://github.com/AY2425S1-CS2113-W10-3/tp",
       "image": "/assets/projects/buffbuddy.png",
       "type": "software"
     },
     {
-      "name": "垂直浸没冷却",
-      "technologies": ["CAD", "3D打印", "Arduino", "Startathon"],
-      "description": "设计了一种模块化浸没冷却系统，以提高可访问性。",
-      "longDescription": "该项目旨在通过使用垂直浸没系统来革新服务器冷却。模块化设计提高了数据中心的可访问性和可扩展性。",
+      "name": "垂直浸没式冷却",
+      "technologies": ["CAD", "3D 打印", "Arduino", "Startathon"],
+      "description": "在 Startathon 活动中担任首席工程师，设计了一种模块化浸没式冷却系统以提高可访问性。",
+      "longDescription": [
+        "该项目旨在通过开发垂直浸没系统来彻底改变服务器冷却方式，解决传统水平设计中的问题。模块化设计改善了数据中心的可访问性、可扩展性和可持续性。",
+        "在 Startathon 中领导工程工作，创建了一个可行的垂直浸没冷却设计，解决了垂直液体方向的负载容量和堆叠服务器的维护问题。",
+        "采用模块化和松散耦合的系统设计理念，使浸没冷却更加经济高效、可扩展且更易于采用。",
+        "目前正在设计一种新的浸没式服务器布局，以优化空间并减少所需冷却液量，重新设计服务器使其更加紧凑和高效。",
+        "目标是减少数据中心的资源浪费，推动浸没冷却这种节能和成本效益高的系统以促进可持续发展，特别是在 AI 使用增加能源需求的情况下。"
+      ],
       "status": "ongoing",
       "url": "https://github.com/yourusername/vertical-immersion-cooling",
       "image": "/assets/projects/bluehouse.png",
       "type": "hardware"
     },
     {
-      "name": "电子迷你超市",
-      "technologies": ["React", "Mantime", "JavaScript", "Hackathon"],
-      "description": "在一次黑客松中开发了一个数字化电子商务解决方案。",
-      "longDescription": "电子迷你超市是一个为黑客松构建的电子商务平台。它集成了库存管理、支付系统和用户友好的界面。",
+      "name": "E-Mini Mart",
+      "technologies": ["React", "Mantine", "JavaScript", "Hackathon"],
+      "description": "在 Hackathon 中开发了一种数字化电商解决方案。",
+      "longDescription": [
+        "在 Hack4Good Hackathon 中领导前端开发和 UI/UX 设计，创建了一个用户友好的市场、一个高效的结账系统以及一个用于管理库存和交易的强大管理员面板。",
+        "使用 Redux 实现实时更新，确保用户操作与数据库更改的无缝同步，而无需刷新页面。",
+        "使用 React 和 Mantine 构建了一个可扩展且直观的界面，优化了青少年用户和管理员的使用体验。"
+      ],
       "status": "done",
       "url": "https://github.com/TVageesan/Hack4Good",
+      "video": "https://youtu.be/eUklz55i0BY",
       "image": "/assets/projects/E-Mart.png",
       "type": "software"
     },
     {
       "name": "Alex 救援机器人",
-      "technologies": ["SLAM", "3D打印", "CAD", "Arduino", "RPI 4", "C/C++"],
-      "description": "一个为搜索和救援操作设计的机器人。",
-      "longDescription": "Alex 救援机器人利用 SLAM 进行导航，并使用 Arduino 和 Raspberry Pi 4 进行处理。它旨在协助灾害响应场景。",
+      "technologies": ["SLAM", "3D 打印", "CAD", "Arduino", "RPI 4", "C/C++"],
+      "description": "一个为搜救操作设计的机器人。",
+      "longDescription": [
+        "Alex 救援机器人使用 Raspberry Pi 4 和 Arduino 构建，旨在通过远程方式导航环境以寻找受害者进行救援。",
+        "使用 SLAM（同步定位与地图构建）实时绘制和导航迷宫，确保精确的移动和高效的探索。",
+        "实现了 ROS（机器人操作系统）以实现传感器、执行器和导航系统之间的模块化控制和通信，从而实现无缝协调。",
+        "开发了一项独特功能，使用陀螺仪实现精确转向，使 Alex 成为完成迷宫速度最快的机器人之一。",
+        "专注于颜色检测系统，编写了可靠的代码，使用基于比率的颜色比较方法确保在任何光照条件下的准确性。"
+      ],
       "status": "done",
       "url": "https://github.com/Bev-low/Alex-the-Rescue-Bot",
       "image": "/assets/projects/Alex.png",
@@ -53,18 +83,48 @@
     {
       "name": "Ryan 迷宫跑者",
       "technologies": ["mBot", "Arduino", "C/C++"],
-      "description": "一个能够自主导航迷宫的机器人。",
-      "longDescription": "Ryan 是一个迷宫解决机器人，由 Arduino 和 mBot 传感器提供支持。它使用算法计算通过迷宫的最佳路径。",
+      "description": "一个设计用于自主导航迷宫的机器人。",
+      "longDescription": [
+        "Ryan 是一个由 Arduino 和 mBot 传感器驱动的迷宫解决机器人，旨在精确计算并导航迷宫的最佳路径。",
+        "实现并优化了用于线检测和颜色检测的算法，以确保准确的路径规划和障碍识别。",
+        "专注于开发可靠的颜色检测系统，使其能够适应不同的环境条件并始终保持一致的性能。",
+        "组装了机器人硬件，集成了传感器并确保机械和软件组件之间的无缝交互。",
+        "在比赛时间中排名前 10%，使 Ryan 成为完成迷宫速度最快的机器人之一。"
+      ],
       "status": "done",
       "url": "https://github.com/Bev-low/Ryan-The-Maze-Runner",
       "image": "/assets/projects/Ryan.png",
       "type": "hardware"
     },
     {
+      "name": "障碍机器人",
+      "technologies": ["Arduino", "C/C++"],
+      "description": "一个设计用于克服一组障碍的机器人。",
+      "longDescription": [
+        "设计并制造了一个轻量级的初始机器人，使用了创新材料如纸板、雪糕棒和面包板来克服一系列工程挑战。",
+        "提出并实现了火箭发射系统，替代传统的弹射系统以提高精度和可靠性。",
+        "编写了运动控制代码，使用驱动芯片实现了前后平稳移动。",
+        "组装了机器人的电气组件，专注于实现准确且稳定的连接。",
+        "通过创造性的设计决策，如使用纸板轮以节省每个轮子 5 克重量，在小组中实现了最轻的重量。",
+        "担任主要视频编辑，制作了一个引人注目的项目视频。"
+      ],
+      "status": "done",
+      "url": "",
+      "video": "https://youtu.be/ShXf9cs_sNk",
+      "image": "/assets/projects/EG1311.png",
+      "type": "hardware"
+    },
+    {
       "name": "宠物通信系统",
       "technologies": ["RPI 4", "C/C++", "应用开发"],
-      "description": "一个让我的宠物随时可以联系我的通信系统。",
-      "longDescription": "宠物通信系统通过一个简单的界面让宠物与主人沟通。它使用 Raspberry Pi 和自定义应用程序进行交互。",
+      "description": "一个为我的宠物设计的通信系统，能随时与我联络。",
+      "longDescription": [
+        "宠物通信系统是一个正在进行中的项目，旨在开发一个能够连接宠物与主人之间沟通的系统，通过用户友好的界面从世界任何地方进行互动。",
+        "该系统使用 Raspberry Pi 4、5 英寸屏幕、扬声器模块和麦克风模块构建，并配有一个定制应用程序以促进无缝通信。",
+        "正在开发用于外壳的 CAD 模型，专注于功能性、耐用性和美观性，以有效整合所有硬件组件。",
+        "项目还包括设计和部署一个移动应用程序，其直观的界面可以让主人轻松与宠物互动。",
+        "未来计划包括增加玩具发射器等功能，以实现远程物理互动，并使系统更加移动化，从而增强灵活性和娱乐性。"
+      ],
       "status": "ongoing",
       "url": "https://github.com/Bev-low/pet-comms",
       "image": "/assets/projects/comingSoon.jpg",

@@ -11,7 +11,8 @@
         "detailedDescription": [
           "Engineered the power architecture for an AUV, optimizing power distribution and stability.",
           "Integrated electrical systems with propulsion and mechanical subsystems.",
-          "Designed custom PCBs tailored to competition standards."
+          "Designed custom PCBs tailored to competition standards.",
+          "Nvida Jetson Xavior board as the main computer"
         ]
       },
       {

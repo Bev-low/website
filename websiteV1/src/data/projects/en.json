@@ -4,7 +4,10 @@
       "name": "This Site!",
       "technologies": ["React", "JavaScript", "CSS"],
       "description": "A responsive portfolio website showcasing skills, projects, and experiences.",
-      "longDescription": "This project was created to display my portfolio in an engaging and modern way. It features a responsive design, interactive elements, and showcases my skills and experiences in software development.",
+      "longDescription": ["This project was created to display my portfolio in an engaging and modern way. It features a responsive design, interactive elements, and showcases my skills and experiences in software development.", 
+    "Used React, Javascript and Vercel as deployment of website.",
+    "Built in under 24 hours to give myself the challenge of it."
+    ],
       "status": "done",
       "url": "https://github.com/Bev-low/website/tree/master/websiteV1",
       "image": "/assets/projects/this-site.png",
@@ -14,8 +17,17 @@
       "name": "BuffBuddy",
       "technologies": ["Java", "CLI", "App Development"],
       "description": "A CLI application to help users track their fitness journeys.",
-      "longDescription": "BuffBuddy is a Command Line Interface (CLI) application designed to track workouts, meals, and water intake. It's simple yet effective for anyone starting their fitness journey.",
+      "longDescription": [
+    "BuffBuddy is a Command Line Interface (CLI) application designed to track workouts, meals, and water intake, providing a simple yet effective tool for anyone starting their fitness journey.",
+    "Developed the application using Object-Oriented Programming principles, ensuring functionality was well-encapsulated and scalable for future enhancements.",
+    "Implemented the save and load feature using the Gson library, enabling seamless reading and writing of custom data types in JSON files for reliable data management.",
+    "Designed and coded an intuitive water tracking feature to make hydration tracking simple and user-friendly.",
+    "Contributed to debugging and resolving application issues to improve functionality and user experience.",
+    "Collaborated with teammates by providing design suggestions that prioritized minimal coupling for a cleaner and more maintainable architecture.",
+    "Created UML diagrams and wrote markdown documentation to effectively communicate the application's structure and usage."
+],
       "status": "done",
+      "video": "https://youtu.be/lOtPP37NJ2o",
       "url": "https://github.com/AY2425S1-CS2113-W10-3/tp",
       "image": "/assets/projects/buffbuddy.png",
       "type": "software"
@@ -24,7 +36,13 @@
       "name": "Vertical Immersion Cooling",
       "technologies": ["CAD", "3D Printing", "Arduino", "Startathon"],
       "description": "Served as the lead engineer in a startathon, designed a modular immersion cooling system for better accessibility.",
-      "longDescription": "This project aims to revolutionize server cooling by using vertical immersion systems. The modular design improves accessibility and scalability for data centers.",
+      "longDescription": [
+    "This project aims to revolutionize server cooling by developing vertical immersion systems, addressing challenges in traditional horizontal designs. The modular design improves accessibility, scalability, and sustainability for data centers.",
+    "Led the engineering effort during a startathon to create a feasible vertical immersion cooling design, tackling challenges like load capacity from vertical liquid orientation and maintenance issues with stacked servers.",
+    "Utilized modular and loosely coupled system design philosophies to make immersion cooling more cost-efficient, scalable, and easier to adopt.",
+    "Currently designing a new layout for immersion-ready servers to optimize space and reduce the amount of coolant needed, reimagining servers to be more compact and efficient.",
+    "The goal is to reduce resource wastage in data centers and promote sustainability, especially as AI adoption increases energy demands, by pushing forward energy-efficient and cost-effective immersion cooling systems."
+],
       "status": "ongoing",
       "url": "https://github.com/yourusername/vertical-immersion-cooling",
       "image": "/assets/projects/bluehouse.png",
@@ -34,9 +52,14 @@
       "name": "E-Mini Mart",
       "technologies": ["React", "Mantime", "JavaScript", "Hackathon"],
       "description": "Developed a digital e-commerce solution during a hackathon.",
-      "longDescription": "E-Mini Mart is an e-commerce platform built for a hackathon. It integrates inventory management, payment systems, and a user-friendly interface.",
+      "longDescription": [
+    "Led frontend development and UI/UX design for an E-Mini Mart web app during the Hack4Good Hackathon, creating a user-friendly marketplace, an efficient checkout system, and a robust admin dashboard for managing stock and transactions.",
+    "Implemented real-time updates using Redux to ensure seamless synchronization of user actions and database changes without requiring page refreshes.",
+    "Built a scalable and intuitive interface using React and Mantine, optimizing usability for both teenage users and administrators."
+],
       "status": "done",
       "url": "https://github.com/TVageesan/Hack4Good",
+      "video": "https://youtu.be/eUklz55i0BY",
       "image": "/assets/projects/E-Mart.png",
       "type": "software"
     },
@@ -44,7 +67,13 @@
       "name": "Alex the Rescue Bot",
       "technologies": ["SLAM", "3D Printing", "CAD", "Arduino", "RPI 4", "C/C++"],
       "description": "A robot designed for search and rescue operations.",
-      "longDescription": "Alex the Rescue Bot leverages SLAM for navigation and Arduino/Raspberry Pi 4 for processing. It's designed to aid in disaster response scenarios.",
+      "longDescription": [
+    "Alex the Rescue Robot is a robot built using Raspberry Pi 4 and Arduino, designed to remotely navigate through environments in search of victims to save.",
+    "Utilized SLAM (Simultaneous Localization and Mapping) to map and navigate the maze in real-time, ensuring precise movement and efficient exploration.",
+    "Implemented ROS (Robot Operating System) for modular control and communication between sensors, actuators, and navigation systems, enabling seamless coordination.",
+    "Developed an exclusive feature using a gyroscope to achieve precise turns, making Alex one of the fastest robots to complete the maze.",
+    "Focused on the color detection system, writing robust code that used ratio-based color comparison to ensure accuracy regardless of lighting conditions."
+],
       "status": "done",
       "url": "https://github.com/Bev-low/Alex-the-Rescue-Bot",
       "image": "/assets/projects/Alex.png",
@@ -54,17 +83,47 @@
       "name": "Ryan the Maze Runner",
       "technologies": ["mBot", "Arduino", "C/C++"],
       "description": "A robot designed to navigate mazes autonomously.",
-      "longDescription": "Ryan is a maze-solving robot powered by Arduino and mBot sensors. It uses algorithms to calculate the optimal path through a maze.",
+      "longDescription": [
+    "Ryan is a maze-solving robot powered by Arduino and mBot sensors, designed to calculate and navigate the optimal path through a maze with precision.",
+    "Implemented and refined algorithms for line detection and color detection to ensure accurate pathfinding and obstacle identification.",
+    "Focused extensively on developing a reliable color detection system, optimizing it to adapt to varying environmental conditions for consistent performance.",
+    "Assembled the robot hardware, integrating sensors and ensuring seamless interaction between mechanical and software components.",
+    "Achieved a top 10% finish in competition timings, making Ryan one of the fastest robots to complete the maze."
+],
       "status": "done",
       "url": "https://github.com/Bev-low/Ryan-The-Maze-Runner",
       "image": "/assets/projects/Ryan.png",
       "type": "hardware"
     },
     {
+      "name": "Obstacle Robot",
+      "technologies": ["Arduino", "C/C++"],
+      "description": "A robot designed to overcome a set of obstacles.",
+      "longDescription": [
+    "Designed and built a lightweight bootstrap robot using innovative materials like cardboard, popsicle sticks, and breadboards to overcome a set of engineering challenges.",
+    "Proposed and implemented a rocket launcher system, replacing the traditional catapult to enhance precision and reliability.",
+    "Wrote the movement control code using driver chips, enabling smooth forward and backward motion.",
+    "Assembled the robot's electrical components with a focus on achieving accurate and stable connections.",
+    "Achieved the lightest weight in the tutorial group by using creative design decisions, such as utilizing cardboard wheels to save 5g per wheel.",
+    "Served as the main video editor, producing a compelling project video."
+],
+      "status": "done",
+      "url": "",
+      "video": "https://youtu.be/ShXf9cs_sNk",
+      "image": "/assets/projects/EG1311.png",
+      "type": "hardware"
+    },
+    {
       "name": "Pet Comms",
       "technologies": ["RPI 4", "C/C++", "App Development"],
       "description": "A pet communication system for my pet to call me whenever.",
-      "longDescription": "Pet Comms is a system that allows pets to communicate with their owners through a simple interface. It uses Raspberry Pi and a custom app for interaction.",
+      "longDescription": [
+    "Pet Comms is an ongoing project to develop a communication system that bridges the gap between pets and their owners, enabling interaction through a user-friendly interface from anywhere in the world.",
+    "The system is being built using Raspberry Pi 4, a 5-inch screen, speaker module, and microphone module, with a custom app to facilitate seamless communication.",
+    "A CAD model for the exterior housing is in progress, focusing on functionality, durability, and aesthetics to integrate all hardware components effectively.",
+    "The project includes designing and deploying a mobile app with an intuitive interface to make it easy for owners to connect and interact with their pets.",
+    "Future plans involve incorporating additional features such as a toy launcher for remote physical interaction and making the system mobile to enhance versatility and engagement during playtime."
+],
       "status": "ongoing",
       "url": "https://github.com/Bev-low/pet-comms",
       "image": "/assets/projects/comingSoon.jpg",

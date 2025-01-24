@@ -31,11 +31,13 @@ const ProjectModal = ({ project, onClose }) => {
           borderRadius: "15px",
           width: "80%",
           maxWidth: "600px",
+          maxHeight: "80%", // Limit the height of the modal
           padding: "2rem",
           position: "relative",
           boxShadow: "0 8px 20px rgba(0, 0, 0, 0.3)",
           transform: "translateY(-10px)",
           animation: "slideDown 0.3s ease forwards",
+          overflowY: "auto", // Enable vertical scrolling
         }}
       >
         {/* Close Button */}
@@ -125,16 +127,24 @@ const ProjectModal = ({ project, onClose }) => {
           ))}
         </div>
 
-        <p
-          style={{
-            marginBottom: "1.5rem",
-            fontSize: "1rem",
-            color: "#333",
-            lineHeight: "1.6",
-          }}
-        >
-          {project.longDescription}
-        </p>
+        <ul style={{ marginBottom: "1.5rem", fontSize: "1rem", color: "#333", lineHeight: "1.6" }}>
+  {project.longDescription.map((item, index) => (
+    <li key={index} style={{ marginBottom: "0.5rem" }}>
+      {item}
+    </li>
+  ))}
+</ul>
+
+<div
+style={{
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "space-between",
+  width: "100%",
+  gap: "1rem",
+}}> 
+  
 
         {/* Conditional Button */}
         {project.status === "ongoing" ? (
@@ -178,6 +188,35 @@ const ProjectModal = ({ project, onClose }) => {
             View Project Repository
           </a>
         )}
+
+{project.video && project.video !== "" && (
+  <a
+    href={project.video}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      padding: "0.8rem 1.5rem",
+      backgroundColor: "#0078d7",
+      color: "#fff",
+      borderRadius: "5px",
+      textDecoration: "none",
+      fontWeight: "bold",
+      transition: "background-color 0.3s",
+    }}
+    onMouseEnter={(e) =>
+      (e.currentTarget.style.backgroundColor = "#005bb5")
+    }
+    onMouseLeave={(e) =>
+      (e.currentTarget.style.backgroundColor = "#0078d7")
+    }
+  >
+    View Project Video
+  </a>
+)}
+</div>
+
+
       </div>
     </div>
   );

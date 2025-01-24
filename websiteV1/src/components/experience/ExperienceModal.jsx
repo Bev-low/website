@@ -31,10 +31,12 @@ const ExperienceModal = ({ experience, onClose }) => {
           borderRadius: "15px",
           padding: "2rem",
           width: "90%",
+          maxHeight: "80%", // Limit the height of the modal
           maxWidth: "600px",
           textAlign: "center",
           position: "relative",
           boxShadow: "0 8px 20px rgba(0, 0, 0, 0.3)",
+          overflowY: "auto", // Enable vertical scrolling
         }}
       >
         {/* Close Button */}
@@ -90,39 +92,13 @@ const ExperienceModal = ({ experience, onClose }) => {
 
         {/* Detailed Description as Styled Bullet Points */}
         {experience.detailedDescription && (
-          <ul
-            style={{
-              textAlign: "left",
-              color: "#333",
-              lineHeight: "1.8",
-              margin: "1rem 0",
-              paddingLeft: "1.5rem",
-              listStyle: "none", // Remove default bullet points
-            }}
-          >
-            {experience.detailedDescription.map((point, index) => (
-              <li
-                key={index}
-                style={{
-                  marginBottom: "0.75rem",
-                  display: "flex",
-                  alignItems: "flex-start",
-                }}
-              >
-                <div
-                  style={{
-                    width: "8px",
-                    height: "8px",
-                    marginTop: "0.35rem",
-                    marginRight: "10px",
-                    backgroundColor: "#0078d7",
-                    borderRadius: "50%", // Circle bullet point
-                  }}
-                ></div>
-                <span style={{ fontSize: "1rem", color: "#555" }}>{point}</span>
-              </li>
-            ))}
-          </ul>
+          <ul style={{ marginBottom: "1.5rem", fontSize: "1rem", color: "#333", lineHeight: "1.6" }}>
+          {experience.detailedDescription.map((point, index) => (
+            <li key={index} style={{ marginBottom: "0.5rem" }}>
+              {point}
+            </li>
+          ))}
+        </ul>
         )}
       </div>
     </div>
