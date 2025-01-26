@@ -2,7 +2,7 @@
 
 This portfolio website was created in under 24 hours to showcase my projects, skills, and experience. It highlights my technical abilities and serves as a personal platform for connecting with potential collaborators and employers.
 
-##View my website here: https://www.beverlylow.site/
+## View my website here: https://www.beverlylow.site/
 
 ## Features
 
