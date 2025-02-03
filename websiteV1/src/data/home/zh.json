@@ -16,6 +16,29 @@
         { "name": "PCB Design", "icon": "/assets/home/Alt.png" }
       ]
     },
+
+    "learning": [
+  {
+    "name": "嵌入式编程 (Embedded Programming)",
+    "image": "/assets/home/Embedded.jpg",
+    "description": "作为实时操作系统模块的一部分，我正在学习嵌入式编程概念，例如裸机编程、理解和定制RTOS以及处理定时器和中断。通过使用Freedom Board和ESP32，我们将整合这些概念，设计并编程一个能够完成比赛的移动敏捷机器人。"
+  },
+  {
+    "name": "汇编语言 (Assembly Language)",
+    "image": "/assets/home/ASS.png",
+    "description": "作为计算机组织模块的一部分，我正在学习汇编语言编程。这包括理解微处理器架构、内存系统以及掌握ARM指令集。课程重点是为工程问题设计和实现高效的汇编语言解决方案。"
+  },
+  {
+    "name": "Basys3",
+    "image": "/assets/home/BASYS.jpg",
+    "description": "目前正在使用Basys 3开发板进行一个项目，学习模拟数字电路。"
+  },
+  {
+    "name": "Verilog",
+    "image": "/assets/home/Veri.png",
+    "description": "学习Verilog编程，以编写高效的硬件设计并在Basys3上测试它们。"
+  }
+],
     "experience": [
     {
       "role": "电气团队 - 新加坡AUV挑战赛",

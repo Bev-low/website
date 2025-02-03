@@ -34,7 +34,7 @@
     },
     {
       "name": "Vertical Immersion Cooling",
-      "technologies": ["CAD", "3D Printing", "Arduino", "Startathon"],
+      "technologies": ["CAD", "3D Printing", "Startathon"],
       "description": "Served as the lead engineer in a startathon, designed a modular immersion cooling system for better accessibility.",
       "longDescription": [
     "This project aims to revolutionize server cooling by developing vertical immersion systems, addressing challenges in traditional horizontal designs. The modular design improves accessibility, scalability, and sustainability for data centers.",
