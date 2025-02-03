@@ -9,9 +9,7 @@ const ProjectCard = ({ project, onViewMore }) => {
         backgroundColor: "#ffffff",
         borderRadius: "10px",
         overflow: "hidden",
-        position: "relative",
         transition: "transform 0.3s, box-shadow 0.3s",
-        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
         transform: isHovered ? "scale(1.03)" : "scale(1)",
         boxShadow: isHovered
           ? "0 8px 16px rgba(0, 0, 0, 0.2)"
