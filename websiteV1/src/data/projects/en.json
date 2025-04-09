@@ -1,6 +1,29 @@
 {
   "items": [
     {
+      "name": "CHILD #5",
+  "technologies": [
+    "Real Time Operating System",
+    "C++",
+    "Uvision",
+    "Protoboard",
+    "3D Printing"
+  ],
+  "description": "A robot equipped with real-time operating system logic, designed to navigate and interact through various tasks under strict timing and hardware constraints.",
+  "longDescription": [
+    "This project was a robotics challenge developed for CG2271, a module on Real-Time Operating Systems.",
+ 
+    "The robot is capable of: receiving and processing wireless commands via Bluetooth on ESP32, navigating in all four directions with curved motion capabilities, controlling LED patterns and sequences based on the robot’s state, and playing continuous and responsive audio cues using a buzzer.", 
+    "The core logic was built on an Freedom board using multiple concurrent tasks and an interrupt service routine to handle real-time constraints.", 
+    "All system components were integrated on a custom-built protoboard circuit and 3D printed front plate for design." 
+  ],
+      "status": "done",
+      "url": "https://github.com/Bev-low/CG2271/tree/Test/Test",
+      "image": "/assets/projects/this-site.png",
+      "type": "hardware"
+    },
+
+    {
       "name": "This Site!",
       "technologies": ["React", "JavaScript", "CSS"],
       "description": "A responsive portfolio website showcasing skills, projects, and experiences.",
