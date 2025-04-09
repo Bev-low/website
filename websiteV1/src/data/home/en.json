@@ -18,11 +18,6 @@
       ]
     },
     "learning": [
-      {
-        "name": "Real Time Operating System", 
-      "image": "/assets/home/Embedded.jpg", 
-      "description": "As part of the Real-Time Operating Systems module, I am learning embedded programming concepts such as bare-metal programming, understanding and customizing RTOS, and handling timers and interrupts. Using the Freedom Board and ESP32, we will integrate these concepts to design and program a mobile and agile robot capable of completing a race."
-      },
       {"name": "Basys3", "image": "/assets/home/BASYS.jpg",
       "description": "Currently doing a project using Basys 3 boards, learning to simualte digital circuits." 
     },
