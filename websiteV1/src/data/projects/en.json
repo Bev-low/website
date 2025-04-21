@@ -1,5 +1,27 @@
 {
   "items": [
+
+    {
+      "name": "Crazy Chess",
+      "technologies": [
+        "Verilog",
+        "Vivado",
+        "Digital Circuits"
+      ],
+      "description": "A two-player FPGA-based chess game with VGA graphics, real-time communication, and interactive audio-visual feedback.",
+      "longDescription": [
+        "Crazy Chess is a digital chess game implemented on two synchronized FPGA boards using Verilog and Vivado. Each board manages a player and communicates moves in real time via UART.",
+        "The main game interface is displayed on a VGA screen, with clearly designed start, gameplay, and end screens. Interactive hover zones on the start screen allow players to begin the game with a mouse click.",
+        "Captured pieces are shown on a dedicated OLED screen, providing a real-time overview of the captured units for each player. A player timer tracks turn duration and determines the winner if time runs out.",
+        "I personally handled VGA display scaling and layout, mapping a previously OLED-based layout onto a monitor with proper pixel alignment. I also implemented sound design logic: distinct tones play for moves, captures, and promotions, along with looping background music on start and end screens.",
+        "I created custom pixel art assets for the start and end screens and designed the switching logic to ensure smooth transitions."
+      ],
+      "status": "done",
+      "url": "https://github.com/Bev-low/EE2026_project/tree/FINAL",
+      "image": "/assets/projects/Crazy_Chess.jpg",
+      "type": "hardware"
+    },
+
     {
       "name": "CHILD #5",
   "technologies": [
