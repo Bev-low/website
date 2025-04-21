@@ -20,19 +20,9 @@
 
     "learning": [
   {
-    "name": "嵌入式编程 (Embedded Programming)",
-    "image": "/assets/home/Embedded.jpg",
-    "description": "作为实时操作系统模块的一部分，我正在学习嵌入式编程概念，例如裸机编程、理解和定制RTOS以及处理定时器和中断。通过使用Freedom Board和ESP32，我们将整合这些概念，设计并编程一个能够完成比赛的移动敏捷机器人。"
-  },
-  {
     "name": "Basys3",
     "image": "/assets/home/BASYS.jpg",
     "description": "目前正在使用Basys 3开发板进行一个项目，学习模拟数字电路。"
-  },
-  {
-    "name": "Verilog",
-    "image": "/assets/home/Veri.png",
-    "description": "学习Verilog编程，以编写高效的硬件设计并在Basys3上测试它们。"
   }
 ],
     "experience": [

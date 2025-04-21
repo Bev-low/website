@@ -20,9 +20,7 @@
     "learning": [
       {"name": "Basys3", "image": "/assets/home/BASYS.jpg",
       "description": "Currently doing a project using Basys 3 boards, learning to simualte digital circuits." 
-    },
-      {"name": "Verilog", "image": "/assets/home/Veri.png",
-    "description": "Learning Verilog coding to write efficent hardware designs and test them on Basys3." }
+    }
     ],
     "experience": [
       {
